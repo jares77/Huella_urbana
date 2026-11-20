@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella_urbana</title>
     <link rel="stylesheet" href="css/estilos.css">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Knewave&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,11 +19,11 @@
         <nav>                                                                                   <!-- menu de navegacion  -->
 
             <ul>
-                <li><a href="#Inicio">Inicio</a></li>                                            <!-- el # hace referencia a un identificador unico dentro de la pagina -->
-                <li><a href="#Servicios">Servicios</a></li>
-                <li><a href="#Planes">Planes</a></li>
-                <li><a href="#Paseadores">Paseadores</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Inicio" class="boton">Inicio</a></li>                                            <!-- el # hace referencia a un identificador unico dentro de la pagina -->
+                <li><a href="#Servicios" class=" boton">Servicios</a></li>
+                <li><a href="#Planes" class=" boton">Planes</a></li>
+                <li><a href="#Paseadores" class="boton">Paseadores</a></li>
+                <li><a href="#Contacto" class="boton">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -28,8 +32,15 @@
         <section id="Inicio">
             <h1 class="Parrafo">Huella Urbana</h1>
             <p id="Slogan">Paseos seguros y felices para tu mascota, mientras tu cumples con tu dia</p>
-            <a href="#Contacto">Agenda un paseo</a>
+            <a href="#Contacto" class="boton">Agenda un paseo</a>
             <img src="img/principal.jpg" alt="Paseo de mascotas">
+        </section>
+        <section id="vIdeo">
+            <iframe width="315" height="576" src="https://www.youtube.com/embed/tV2uHWjL5VA" 
+            title="#amorincondicional #vidadechihuahua #chihuahua" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>" 
         </section>
 
         <section id="Servicios">
@@ -74,7 +85,7 @@
             </article>
         </section>
 
-        <section id="Paeadores">
+        <section id="Paseadores">
             <article>
                 <img src="img/paseador-1.jpg" alt="Foto Juan Gomez">
                 <h3>Juan Gómez</h3>
@@ -92,11 +103,22 @@
                 <h3>Camilo Sanchez</h3>
                 <p>Estudiante de veterinaria, Ideal para mascotas grandes</p>
             </article>
+
         </section>
 
+        <section id="Contacto">
+            <h2>Contactanos</h2>
+            <p>Escribenos y agenda el primer paseo para tu mascota</p>
+            <ul>
+                <li><a href="maito:contacto@huellaurbana.com">contacto@huellaurbana.com</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">instagram</a></li>
+            </ul>
+        </section>
 
-
-        
     </main>
+    <footer>
+        <p>&copy; 2026 Huella Urbana. Todos los derechos reservados</p>
+        <p>Fotos: <a href="https:www.pexels.com" target="_blank">pexels</a></p>
+    </footer>
 </body>
 </html>

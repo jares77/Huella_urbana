@@ -1,29 +1,101 @@
+:root{
+    --verde: #09c846;
+    --naranja: #f68a2b;
+    --cielo: #d8d8f2;
+    --blanco:#ffffff;
+    }
 
-body {background-color:0BF4E0; 
-            color: blue;
-        }
 
-header {
-            background-color: rgb(96, 126, 126);
+body 
+{
+background-color: var(--cielo); 
+color: darkblue;
+margin: auto;
+}
+
+header 
+{
+background-color: var(--verde);
+display: flexbox;
+align-items: flex-end;
+}
+
+header img
+{
+width: 300px;
+height: 200px;
+}
+
+img
+{
+max-width: 100%;
+}
+
+#inicio
+{
+text-align: center;
+}
+#inicio img{
+    width: 500px;
+    height: 500px;
     
-        }
+}
+
+.boton
+{
+display: inline-block;
+background-color: var(--naranja);
+color: var(azul);
+padding: 12px 28px;
+margin: 20px 0;
+border-radius: 30px;
+text-decoration: none;
+}
+
+.boton:hover
+{
+background-color: var(--cielo);
+color: var(--verde)
+}
+
+nav ul
+{
+list-style: none;
+text-align: right;
+}
+
+nav li 
+{
+display: inline-block;
+margin-right: 20px;
+}  
+
+nav a
+{
+color: var(--blanco);
+font-family: "Henny Penny", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+}
+
 p{
-
 font-size: 20pt;
-
 }
 
-#Slogan{
-    color: crimson;
-    font-size: 30pt;
+#Slogan
+{
+color: red;
+font-size: 30pt;
 }
 
-.Parrafo{
-
-background-color: chartreuse;
+.Parrafo
+{
+background-color: chartreuse;      
 }
 
-#Servicios article img{
-    width: 300px;
-    height: 300px;
+#Servicios article img 
+{
+width: 300px;
+height: 300px;
 }
